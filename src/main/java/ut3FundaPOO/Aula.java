@@ -34,6 +34,6 @@ public class Aula {
 		return "Aula [numAula=" + numAula + ", grupo=" + grupo + ", largo=" + largo + ", ancho=" + ancho + "]";
 	}
 	
-	/*miau*/
+	/*miau */
 	
 }
