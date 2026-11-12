@@ -4,10 +4,21 @@ public class Tienda {
 	private String nombre;
 	private String direccion;
 	private Cliente cliente;
+
+	public Tienda(String nombre, String direccion) {
+		this.nombre = nombre;
+		this.direccion = direccion;
+	}
+	
+	public void agregarCliente(Cliente cliente1) {
+		this.cliente = cliente1;
+	}
+
+	@Override
+	public String toString() {
+		return "Tienda [nombre=" + nombre + ", direccion=" + direccion + ", cliente=" + cliente + "]";
+	}
 }
 
-public Tienda(String nombre, String direccion) {
-	this.nombre = nombre;
-	this.direccion = direccion;
-}
+
 

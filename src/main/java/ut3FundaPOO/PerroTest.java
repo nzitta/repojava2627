@@ -6,6 +6,8 @@ public class PerroTest {
 		//Creación objeto perro
 		Perro Perro1 = new Perro("Manolito", 3, "Pug");
 		System.out.println(Perro1.toString());
+		Perro1.hacerRuido();
+		System.out.println(Perro1.toString());
 	}
 
 }
