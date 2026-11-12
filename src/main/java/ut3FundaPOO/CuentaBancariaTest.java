@@ -23,6 +23,10 @@ public class CuentaBancariaTest {
 		
 		cuentaFlor.retirar(200);
 		System.out.println("El saldo actual de Flor es: "+cuentaFlor.getSaldo());
+		
+		CuentaBancaria Cuenta1 = new CuentaBancaria("Pepe", 5);
+		CuentaBancaria Cuenta2 = new CuentaBancaria("Ana", 10);
+		
 	}
 
 }
