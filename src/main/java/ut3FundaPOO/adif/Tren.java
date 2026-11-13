@@ -16,10 +16,11 @@ public class Tren {
 		this.responsable = responsable;
 	}
 
-	public void enganchaVagon(int cargaMax, int cargaActual, String mercancia) {
+	public void enganchaVagon(int cargaMaxMiau, int cargaActual, String mercancia) {
 		if (numVagones == 0) {
 			
 		} else {};
 		
 	}
 }
+
