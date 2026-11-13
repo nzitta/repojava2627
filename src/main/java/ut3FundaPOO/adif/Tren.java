@@ -17,7 +17,9 @@ public class Tren {
 	}
 
 	public void enganchaVagon(int cargaMax, int cargaActual, String mercancia) {
-		if numVagones = 0;
+		if (numVagones == 0) {
+			
+		} else {};
 		
 	}
 }
